@@ -1,0 +1,15 @@
+<?php 
+$page_css = "about_us.css"; 
+require 'include/header.php'; 
+ ?>
+
+<section class="about-section">
+  <h1>About Us</h1>
+  <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut sint dolorem aliquid minus voluptatum impedit deserunt quod deleniti unde quidem illum quasi ratione nobis accusantium voluptas, cupiditate a sequi! Quae, repellendus molestias optio, nesciunt facilis cupiditate iusto beatae est veniam modi totam illum minus perspiciatis vero vel ratione et enim quidem. Labore veritatis odit recusandae obcaecati cumque fugiat assumenda iusto eaque at. Eius voluptatibus error obcaecati dolores minus autem, reiciendis culpa illo quia, suscipit dolor eos odit neque dolore voluptate dolorum deserunt molestias nemo totam recusandae, placeat ex eaque. Non est dolor doloribus aperiam? Nostrum cupiditate asperiores possimus accusantium. Aperiam eveniet qui illum totam soluta earum ut repudiandae molestiae nobis neque! Eum beatae, quo non et quasi blanditiis ducimus alias recusandae fugit repudiandae voluptatem totam sint aliquam soluta molestias consequatur veritatis accusamus molestiae sapiente provident qui obcaecati atque corrupti cupiditate! Nisi consequuntur voluptates pariatur sapiente debitis soluta voluptatibus ipsam laboriosam blanditiis, repudiandae obcaecati, amet quidem. A excepturi quia laudantium hic, rerum accusamus perferendis iure libero reiciendis iusto repudiandae quod qui reprehenderit! Eum ad voluptatum suscipit iusto minus dignissimos ea, quas, odio sunt error, assumenda iste fuga debitis modi rem optio vel. Commodi minus ex et distinctio dicta perferendis corporis, iste ipsa cumque veniam, eveniet laudantium enim asperiores porro quo. Sit, vero quae illo repellendus eligendi est quos excepturi id tempora quaerat incidunt nam voluptate consectetur accusamus suscipit vel ipsum, velit eum facilis quidem! A nihil autem, vero vel aliquam perspiciatis beatae omnis illum necessitatibus impedit nulla deleniti sapiente sequi. Similique dolor incidunt, quasi maiores officiis explicabo sequi facere quos sed. Temporibus, praesentium! Reprehenderit, quaerat exercitationem quas beatae cupiditate illo, quod alias dolorem enim totam fugiat! Eius ipsum, alias quos perspiciatis tempora ullam laudantium iusto rerum excepturi temporibus, architecto porro nihil modi, est blanditiis illo unde repellendus quaerat molestiae! Numquam quaerat illo quis, et nulla, delectus dolore error vel alias iste aliquid sint non, ipsam possimus quo ipsum eligendi exercitationem accusantium? Quis, nam consequatur! Beatae corporis alias distinctio facilis laborum quasi! Illo sapiente inventore, quaerat tempora, fugit ducimus pariatur alias quis dignissimos perferendis a deserunt expedita placeat nisi enim natus eum.</p>
+</section>
+
+<!-- Footer -->
+  <?php require 'include/footer.php';?>
+
+</body>
+</html>

@@ -1,0 +1,44 @@
+/*=============PAGE2=================*/
+/* About-us.css */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #f3f3f4;
+}
+.about-section {
+  padding: 60px 10%;
+  background: #edecec;
+}
+
+.about-section h1 {
+  text-align: center;
+  font-size: 36px;
+  font-weight:700;
+  margin-bottom: 20px;
+  color: #222;
+}
+
+/* ✅ Paragraph styling */
+.about-section p {
+  font-size: 16px;
+  line-height: 1.6;          /* improves readability */
+  color: black;
+  
+  max-width: 900px;          /* prevents very wide text */
+  margin: auto;              /* center align block */
+  
+  text-align: justify;       /* clean alignment */
+  
+  letter-spacing: 0.3px;     /* subtle spacing */
+  
+  background: white;         /* card effect */
+  padding: 25px 30px;
+  
+  border-radius: 8px;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.08);
+}

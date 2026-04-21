@@ -1,0 +1,223 @@
+/* Base layout (same as dashboard) */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  background: #f4f6f9;
+}
+
+.admin-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+
+.admin-info i {
+  font-size: 32px;
+  color: #cbd5e1;
+}
+
+.admin-info span {
+  color: #fff;
+  font-weight: 500;
+}
+
+/* Sidebar */
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  background: #1f2937;
+  color: #fff;
+  position: fixed;
+  padding: 20px;
+}
+
+.sidebar nav a {
+  display: block;
+  padding: 12px;
+  color: #cbd5e1;
+  text-decoration: none;
+  margin-bottom: 6px;
+  border-radius: 6px;
+}
+
+.sidebar nav a.active,
+.sidebar nav a:hover {
+  background: #374151;
+  color: #fff;
+}
+
+/* Main */
+.main {
+  margin-left: 240px;
+  width: calc(100% - 240px);
+}
+
+/* Topbar */
+.topbar {
+  background: #fff;
+  height: 70px;              /* 👈 FIXED HEIGHT */
+  padding: 0 25px;           /* remove vertical padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.topbar h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.topbar button {
+  height: 40px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+}
+
+.btn-primary {
+  background: #2563eb;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+}
+
+.topbar h1 {
+  font-size: 22px;
+  color: #111827;
+}
+
+/* ================= TABLE ================= */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  background: #fff;
+  margin-top: 15px;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+/* Header */
+table th {
+  background-color: #000;
+  color: #fff;
+  padding: 14px;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* Body */
+table td {
+  padding: 14px;
+  border-bottom: 1px solid #e5e7eb;
+  font-size: 14px;
+  color: #111;
+}
+
+/* Remove last border */
+table tr:last-child td {
+  border-bottom: none;
+}
+
+/* Row hover */
+table tbody tr:hover {
+  background: #f9fafb;
+}
+
+/* Image */
+table img {
+  width: 55px;
+  height: 55px;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+/* Column widths */
+table td:nth-child(1),
+table th:nth-child(1) {
+  width: 60px;
+}
+
+table td:nth-child(2),
+table th:nth-child(2) {
+  width: 100px;
+}
+
+/* ================= BUTTONS ================= */
+.btn-primary {
+  background: #2563eb;
+  color: #fff;
+  padding: 10px 16px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-primary:hover {
+  background: #1d4ed8;
+}
+
+.btn-secondary {
+  background: #9ca3af;
+  color: #fff;
+  padding: 8px 12px;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.btn-secondary:hover {
+  background: #6b7280;
+}
+
+/* Modal */
+.modal {
+  position: fixed;
+  inset: 0;
+  background: rgba(0,0,0,0.5);
+  display: none;
+  align-items: center;
+  justify-content: center;
+}
+
+.modal-content {
+  background: #fff;
+  width: 500px;
+  padding: 25px;
+  border-radius: 10px;
+}
+
+.modal-content h2 {
+  margin-bottom: 15px;
+}
+
+.modal-content label {
+  display: block;
+  margin-top: 10px;
+  font-weight: 500;
+}
+
+.modal-content input {
+  width: 100%;
+  padding: 8px;
+  margin-top: 6px;
+}
+
+.modal-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 10px;
+  margin-top: 20px;
+}

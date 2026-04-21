@@ -1,0 +1,146 @@
+/* Reuse base dashboard styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  display: flex;
+  background: #f4f6f9;
+}
+
+
+.admin-info {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  padding: 20px 10px;
+  margin-bottom: 20px;
+}
+
+.admin-info i {
+  font-size: 32px;
+  color: #cbd5e1;
+}
+
+.admin-info span {
+  color: #fff;
+  font-weight: 500;
+}
+
+
+/* Sidebar */
+.sidebar {
+  width: 240px;
+  height: 100vh;
+  background: #1f2937;
+  color: #fff;
+  position: fixed;
+  padding: 20px;
+}
+
+.logo {
+  font-size: 22px;
+  margin-bottom: 25px;
+  font-weight: bold;
+}
+
+/* Sidebar Links */
+.sidebar nav a {
+  display: block;
+  padding: 12px;
+  color: #cbd5e1;
+  text-decoration: none;
+  margin-bottom: 6px;
+  border-radius: 6px;
+  transition: 0.3s;
+}
+
+.sidebar nav a.active,
+.sidebar nav a:hover {
+  background: #374151;
+  color: #fff;
+}
+
+/* Main */
+.main {
+  margin-left: 240px;
+  width: calc(100% - 240px);
+}
+
+/* Topbar */
+.topbar {
+  background: #fff;
+  height: 70px;              /* 👈 FIXED HEIGHT */
+  padding: 0 25px;           /* remove vertical padding */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid #ddd;
+}
+
+.topbar h1 {
+  font-size: 20px;
+  margin: 0;
+}
+
+.topbar button {
+  height: 40px;
+  padding: 0 16px;
+  display: flex;
+  align-items: center;
+}
+
+.admin-info {
+  font-weight: 500;
+  color: #374151;
+}
+
+/* Cards Section */
+.cards {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 20px;
+  padding: 25px;
+}
+
+/* Individual Card */
+.card {
+  background: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.08);
+  transition: 0.3s;
+}
+
+.card:hover {
+  transform: translateY(-5px);
+}
+
+.card h3 {
+  font-size: 16px;
+  color: #6b7280;
+  margin-bottom: 10px;
+}
+
+.card p {
+  font-size: 24px;
+  font-weight: bold;
+  color: #111827;
+}
+
+/* Content Area */
+.content {
+  padding: 25px;
+}
+
+.content h2 {
+  margin-bottom: 10px;
+}
+
+.content p {
+  color: #555;
+  line-height: 1.6;
+}

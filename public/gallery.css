@@ -1,0 +1,85 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  background: #edecec;
+}
+
+/* Section */
+.gallery-section {
+  max-width: 1200px;
+  margin: 40px auto;
+  padding: 0 15px;
+}
+
+.gallery-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 30px;
+  color: #111;
+}
+
+/* Grid */
+.gallery-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(260px, 1fr));
+  gap: 20px;
+}
+
+/* Item */
+.gallery-item {
+  position: relative;
+  overflow: hidden;
+}
+
+/* Image wrapper */
+.gallery-img {
+  position: relative;
+  border: 1px solid black;
+}
+
+.gallery-img img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  display: block;
+  transition: transform 0.4s ease;
+}
+
+
+
+/* Overlay */
+.overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0,0,0,0.5);
+  opacity: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: opacity 0.3s ease;
+}
+
+.gallery-item:hover .overlay {
+  opacity: 1;
+}
+
+/* Zoom icon */
+.zoom-icon {
+  color: #fff;
+  font-size: 25px;
+  width: 50px;
+  height: 50px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

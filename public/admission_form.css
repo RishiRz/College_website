@@ -1,0 +1,340 @@
+*{
+  font-family: "Segoe UI", Arial, sans-serif;
+}
+
+body {
+  font-family: "Segoe UI", Arial, sans-serif;
+  margin: 0;
+  background: #edecec;
+}
+
+
+
+
+
+/* Feee Section */
+.fees-section {
+  max-width: 1200px;
+  margin: 50px auto;
+  padding: 20px;
+}
+
+/* Title */
+.fees-title {
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+/* Subtitles */
+.fees-subtitle {
+  color: #c00000;
+  margin: 20px 0 10px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+/* Tables */
+.fees-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 25px;
+  background: #fff;
+}
+
+.fees-table td {
+  border: 1px solid #333;
+  padding: 10px;
+  font-size: 16px;
+}
+
+/* Total row */
+.fees-table .total td {
+  font-weight: bold;
+  background: #f3f3f3;
+}
+
+/* Amount right align */
+.amount {
+  font-weight: bold;
+  text-align: right;
+}
+
+/* Notes */
+.fees-note {
+  margin-bottom: 10px;
+  font-size: 14px;
+}
+
+/* List */
+.fees-list {
+  margin-left: 20px;
+  font-size: 14px;
+}
+
+.fees-list li {
+  margin-bottom: 8px;
+}
+
+/* Warning */
+.fees-warning {
+  margin-top: 30px;
+  color: red;
+  font-weight: 600;
+  font-size: 13px;
+}
+
+
+/* Uniform Section */
+.uniform-section {
+  max-width: 1100px;
+  margin: 50px auto;
+  padding: 20px;
+  /* background: #fff;
+  border-radius: 8px;
+  box-shadow: 0 6px 15px rgba(0,0,0,0.08); */
+}
+
+/* Title */
+.uniform-title {
+  text-align: center;
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: #111;
+}
+
+/* Description */
+.uniform-desc {
+  text-align: center;
+  font-size: 18px;
+  margin-bottom: 20px;
+  color: #555;
+}
+
+/* Box */
+.uniform-box {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #000;
+}
+
+.uniform-box p {
+  margin-bottom: 6px;
+}
+
+/* Highlight footer */
+.uniform-footer {
+  margin-top: 15px;
+  font-weight: 600;
+  color: #2563eb;
+}
+
+
+/* FORM CONTAINER */
+.form-container {
+  max-width: 1200px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 8px;
+  padding: 30px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
+}
+
+/* Headings */
+h2,
+h3 {
+  text-align: center;
+  font-weight: 550;
+  margin-bottom: 10px;
+}
+
+/* Section spacing */
+.section {
+  clear: both;
+  margin-top: 25px;
+}
+
+/* Form rows */
+.row {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.row label {
+  width: 250px;
+  font-weight: 600;
+}
+
+.row input,
+.row select {
+  flex: 1;
+  padding: 8px 10px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+  font-size: 14px;
+}
+
+/* PHOTO BOX */
+.photo-box {
+  border: 2px dashed #aaa;
+  width: 150px;
+  height: 170px;
+  position: relative;
+  border-radius: 6px;
+  background: #fafafa;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+}
+
+/* Hide real file input completely */
+.photo-box input {
+  display: none;
+}
+
+/* Custom clickable label */
+.upload-label {
+  cursor: pointer;
+  font-size: 14px;
+  color: #555;
+}
+
+/* Preview image */
+#previewImg {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.upload-label {
+  cursor: pointer;
+  font-size: 14px;
+  color: #555;
+}
+
+
+
+/* TABLE */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+table th {
+  background: #343a40;
+  color: white;
+}
+
+table,
+th,
+td {
+  border: 1px solid #ccc;
+}
+
+th,
+td {
+  padding: 8px;
+  text-align: center;
+}
+
+table input {
+  width: 100%;
+  padding: 5px;
+  border: 1px solid #ccc;
+}
+
+
+/* Submit Button */
+button[type="submit"] {
+  padding: 10px 30px;
+  font-size: 16px;
+}
+
+
+
+/* Section */
+.bank-section {
+  max-width: 1100px;
+  margin: 40px auto;
+  padding: 20px;
+}
+
+/* Title */
+.bank-title {
+  text-align: center;
+  color: red;
+  font-size: 36px;
+  font-weight: 600;
+  margin-bottom: 40px;
+}
+
+/* Layout */
+.bank-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+  gap: 40px;
+}
+
+/* Left text */
+
+.bank-details {
+  flex: 1;
+  font-size: 16px;
+  color: #000;
+  padding-top: 20px;
+}
+
+.bank-details p{
+  line-height: 1;
+}
+.bank-details strong {
+  font-size: 18px;
+}
+
+/* QR */
+.bank-qr {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+}
+
+.bank-qr img {
+  width: 240px;
+  height: auto;
+  border: 1px solid #5f5d5d;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+
+  .row {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .row label {
+    width: 100%;
+    margin-bottom: 5px;
+  }
+
+  .photo-box {
+    float: none;
+    margin: 0 auto 20px auto;
+  }
+
+  .signature {
+    flex-direction: column;
+    gap: 30px;
+  }
+
+  .signature div {
+    width: 100%;
+  }
+}
